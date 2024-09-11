@@ -17,7 +17,7 @@ Vagrant.configure("2") do |config|
 
   # Máquina virtual para el Auth API
   config.vm.define "auth-api" do |auth|
-    auth.vm.box = "ubuntu/bionic64" # Puedes cambiar la versión de Ubuntu si lo prefieres
+    auth.vm.box = "ubuntu/bionic64" 
     auth.vm.hostname = "auth-api"
     auth.vm.network "private_network", ip: "192.168.50.2" # IP estática para esta máquina
     auth.vm.provision "docker"
