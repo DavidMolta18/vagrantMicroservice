@@ -104,3 +104,10 @@ This will bring up all the VMs, set up Docker containers for each microservice, 
 ## 📚 Conclusion
 
 This project demonstrates how to manage and deploy a microservices-based architecture using **Vagrant** to create isolated virtual environments, each running its respective Docker container. This setup ensures seamless communication between the services and provides a scalable solution for testing, development, or production environments. Using **Docker** inside VMs gives flexibility to configure, maintain, and update the services independently.
+
+##Pruebas de funcionamiento
+![Prueba agregar todo](img/PRUEBAAGREGARTODO.png)
+![Prueba eliminación todo](img/PRUEBAELIMINACIONTODO.png)
+![Prueba login](img/PRUEBALOGIN.png)
+![Prueba máquinas corriendo](img/PRUEBAMAQUINASCORRIENDO.png)
+
